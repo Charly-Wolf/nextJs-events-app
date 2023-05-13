@@ -29,19 +29,23 @@ footer
   
 main
   width: 100%
-  max-width: 1450px
+  max-width: 1350px
   margin: auto 
-  padding: 30px
+  padding: 70px 30px
 
 .home_body
   display: flex
   flex-direction: column
   gap: 50px
+  .image
+    width: 40%
   .card
     display: flex
     flex-direction: row
     gap: 30px
     justify-content: center
-    align-content: center
+    align-items: center
+    &:nth-child(even)
+      direction: rtl
     .content
       width: 50%
